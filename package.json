@@ -1,0 +1,25 @@
+{
+  "name": "slack_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node index.js",
+  "engines": {
+    "node": "17.0.1"
+  },
+  "scripts": {
+    "start": "env-cmd nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/events-api": "^3.0.1",
+    "@slack/web-api": "^6.6.0",
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "ngrok": "^4.3.0"
+  }
+}
